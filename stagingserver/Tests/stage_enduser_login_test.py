@@ -19,6 +19,7 @@ class Test_end_user_login:
                 logging.info("Clicking on the profile icon")
                 click_action(self.driver, class_Locators.profile_icon)
                 logging.info("Successfully done - Test case 1.1 is passed ")
+                time.sleep(3)
 
                 logging.info("Clicking on the login link")
                 click_action(self.driver, class_Locators.login_link)
@@ -29,7 +30,7 @@ class Test_end_user_login:
                 logging.info("Successfully done - Test case 1.3 is passed ")
 
                 logging.info("Entering value email or number in the field")
-                send_keys(self.driver, class_Locators.login_email_or_phone_number,"testingenduser@yopmail.com")
+                send_keys(self.driver, class_Locators.end_user_email_or_phone_number,"testingenduser@yopmail.com")
                 logging.info("Successfully done - Test case 1.4 is passed ")
 
                 logging.info("Clicking on the login with OTP button")

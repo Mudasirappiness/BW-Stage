@@ -1,28 +1,20 @@
-2025-01-23 16:52:11 INFO Entering email.
-2025-01-23 16:52:11 INFO Entering password.
-2025-01-23 16:52:11 INFO Clicking the submit button.
-2025-01-23 16:52:19 INFO Entering values in to the field
-2025-01-23 16:52:24 INFO Successfully logged in to the admin panel - Testcase 1.1 is passed
-2025-01-23 16:52:24 INFO Clicking on the user management link 
-2025-01-23 16:52:24 INFO Successfully done - Testcase 1.2 is passed
-2025-01-23 16:52:24 INFO Clicking on the brand link
-2025-01-23 16:52:24 INFO Successfully done - Testcase 1.3 is passed
-2025-01-23 16:52:24 INFO Clicking on the create brand button
-2025-01-23 16:52:28 INFO Successfully done - Testcase 1.4 is passed
-2025-01-23 16:52:28 INFO Entering values in the Name and id field
-2025-01-23 16:52:28 INFO Successfully done - Testcase 1.5 is passed
-2025-01-23 16:52:28 INFO Entering phone number
-2025-01-23 16:52:28 INFO Successfully done - Testcase 1.6 is passed
-2025-01-23 16:52:28 INFO Entering Address
-2025-01-23 16:52:28 INFO Successfully done - Testcase 1.10 is passed
-2025-01-23 16:52:28 INFO Selecting the city
-2025-01-23 16:52:28 INFO Successfully done - Testcase 1.8 is passed
-2025-01-23 16:52:28 INFO Selecting the location served
-2025-01-23 16:52:29 INFO Successfully done - Testcase 1.9 is passed
-2025-01-23 16:52:29 INFO Selecting the id type
-2025-01-23 16:52:29 INFO Successfully done - Testcase 1.11 is passed
-2025-01-23 16:52:29 INFO Selecting the feature
-2025-01-23 16:52:29 INFO Successfully done - Testcase 1.12 is passed
-2025-01-23 16:52:29 INFO Clicking on the submit button
-2025-01-23 16:52:34 INFO Successfully done - Testcase 1.13 is passed
-2025-01-23 16:52:38 INFO Tearing down the WebDriver.
+2025-01-24 12:24:26 INFO Entering email.
+2025-01-24 12:24:26 INFO Entering password.
+2025-01-24 12:24:26 INFO Clicking the submit button.
+2025-01-24 12:24:29 INFO Clicking on the profile icon
+2025-01-24 12:24:29 INFO Successfully done - Test case 1.1 is passed 
+2025-01-24 12:24:32 INFO Clicking on the login link
+2025-01-24 12:24:32 INFO Successfully done - Test case 1.2 is passed 
+2025-01-24 12:24:32 INFO Clicking on the login with OTP button
+2025-01-24 12:24:33 INFO Successfully done - Test case 1.3 is passed 
+2025-01-24 12:24:33 INFO Entering value email or number in the field
+2025-01-24 12:24:33 INFO Successfully done - Test case 1.4 is passed 
+2025-01-24 12:24:33 INFO Clicking on the login with OTP button
+2025-01-24 12:24:33 INFO Successfully done - Test case 1.5 is passed 
+2025-01-24 12:24:33 INFO Entering OTP in to the fields
+2025-01-24 12:24:34 INFO Successfully entered otp- Testcase 1.6 is passed
+2025-01-24 12:24:34 INFO Clicking on the verify button
+2025-01-24 12:24:34 INFO Successfully done - Test case 1.7 is passed 
+2025-01-24 12:24:39 INFO Asserting the title
+2025-01-24 12:24:39 INFO Successfully done - Test case 1.8 is passed 
+2025-01-24 12:24:46 INFO Tearing down the WebDriver.

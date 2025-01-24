@@ -119,6 +119,7 @@ class class_Locators:
     password_verify_submit = (By.XPATH,"(//span[text()='Submit'])[2]")
     user_submit = (By.XPATH,"//span[text()='Submit']")
     end_user_logo = (By.XPATH,'//*[@id="wishlist"]/div/div/div[1]/div[1]/img')
+    end_user_email_or_phone_number = (By.XPATH, "//*[@id='Phone Number or Email']")
 
     """Dealer user locator"""
     user_selection2 = (By.XPATH, "//div[text()='Dealer / Store']")
