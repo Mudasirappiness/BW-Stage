@@ -239,6 +239,51 @@ class class_Locators:
     admin_dealer_featured = (By.XPATH , " //p[text()='YES']")
     admin_dealer_submit = (By.XPATH , " //span[text()=' Submit']")
 
+    """"Service account locators"""
+    admin_service_user = (By.XPATH, "//div[text()='Services']")
+    admin_service_create_service = (By.XPATH, "//div[text()='Create service']")
+    admin_service_user_name = (By.XPATH , " (//input[@type='text'])[1]")
+    admin_service_user_id = (By.XPATH, " (//input[@type='text'])[2]")
+    admin_service_phone_number = (By.XPATH, "(//input[@type='text'])[3]")
+    admin_service_address = (By.XPATH, "(//textarea[@type='text'])[1]")
+    admin_service_city = (By.XPATH, "(//input[@type='text'])[7]")
+    admin_service_city_suggestion = (By.XPATH , " //div[text()='Salem, Tamil Nadu']")
+    admin_service_id_select = (By.XPATH , "(//div[text()='--Select--'])[2]")
+    admin_service_id_suggestion = (By.XPATH , "//p[text()='GST']")
+    admin_service_id_number = (By.XPATH, "//input[@id='idNumber']")
+    admin_service_types_of_services = (By.XPATH , "(//p[text()='--Select--'])[1]")
+    admin_service_types_of_services_suggestion = (By.XPATH, "(//span[text()='Civil Engineers'])[1]")
+    admin_service_types_of_service_arrow = (By.XPATH, "/html/body/div[1]/div/section[2]/div[2]/div/div[2]/div/div[14]/section/div/div/div/div[1]/img")
+    admin_service_specialization_click = (By.XPATH, "/html/body/div[1]/div/section[2]/div[2]/div/div[2]/div/div[15]/section/div/div/div/div/div/span/p")
+    admin_service_specialization_suggestion = (By.XPATH , "//span[text()='Commercial']")
+    admin_service_specialization_arrow = (By.XPATH, "/html/body/div[1]/div/section[2]/div[2]/div/div[2]/div/div[15]/section/div/div/div/div[1]/img")
+    admin_service_location_served = (By.XPATH, "(//input[@type='text'])[10]")
+    admin_service_location_served_suggestion = (By.XPATH , "//label[text()='Bangalore, Karnataka']")
+    admin_service_about_us = (By.XPATH , "(//textarea[@type='text'])[2]")
+    admin_service_featured = (By.XPATH, "//p[text()='YES']")
+    admin_service_submit = (By.XPATH , "//span[text()=' Submit']")
+
+    """Admin end_user locators"""
+
+    admin_end_user = (By.XPATH, "//div[text()='Users']")
+    admin_end_user_create_user = (By.XPATH , "//div[text()='Create user']")
+    admin_end_user_name = (By.XPATH, "(//input[@type='text'])[1]")
+    admin_end_user_email = (By.XPATH, "(//input[@type='text'])[2]")
+    admin_end_user_phone_number = (By.XPATH, "(//input[@type='text'])[3]")
+    admin_end_user_city = (By.XPATH , "(//input[@type='text'])[4]")
+    admin_end_user_city_suggestion = (By.XPATH,"//div[text()='Salem, Tamil Nadu']")
+    admin_end_user_address = (By.XPATH, "(//textarea[@type='text'])[1]")
+    admin_end_user_bio = (By.XPATH, "(//textarea[@type='text'])[2]")
+    admin_end_user_gender_click = (By.XPATH, "//div[text()='--Select--']")
+    admin_end_user_gender_selection = (By.XPATH , "//p[text()='Male']")
+    admin_end_user_submit = (By.XPATH,"//span[text()='Submit']")
+
+
+
+
+
+
+
 
 
 
