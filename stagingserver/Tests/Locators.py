@@ -278,6 +278,16 @@ class class_Locators:
     admin_end_user_gender_selection = (By.XPATH , "//p[text()='Male']")
     admin_end_user_submit = (By.XPATH,"//span[text()='Submit']")
 
+    """Sub-Admin dealer locators"""
+    admin_sub_admin_user_link = (By.XPATH, "(//div[text()='Admin'])[1]")
+    admin_sub_admin_create_admin =(By.XPATH , "//div[text()='Create admin']")
+    sub_admin_dealer_name = (By.XPATH , "(//input[@type='text'])[1]")
+    sub_admin_dealer_new_email = (By.XPATH, "(//input[@type='text'])[2]")
+    sub_admin_dealer_user_open_click = (By.XPATH, "//img[contains(@alt, 'img') and contains(@height, '100')]")
+    sub_admin_dealer_user_selection = (By.XPATH, "//span[text()='Dealer / Store Admin']")
+    sub_admin_dealer_user_close_click =(By.XPATH, "/html/body/div[1]/div/section[2]/div[2]/div/div[2]/div[2]/section[1]/div/div/div/div[1]/img")
+    sub_admin_dealer_password = (By.XPATH, "//input[@id='password']")
+    sub_admin_dealer_submit = (By.XPATH, "//span[text()='Submit']")
 
 
 

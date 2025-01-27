@@ -1,49 +1,22 @@
-2025-01-24 16:00:57 INFO Entering email.
-2025-01-24 16:00:57 INFO Entering password.
-2025-01-24 16:00:57 INFO Clicking the submit button.
-2025-01-24 16:01:05 INFO Entering values in to the field
-2025-01-24 16:01:10 INFO Successfully logged in to the admin panel - Testcase 1.1 is passed
-2025-01-24 16:01:10 INFO Clicking on the user management link 
-2025-01-24 16:01:10 INFO Successfully done - Testcase 1.2 is passed
-2025-01-24 16:01:10 INFO Clicking on the end_user link
-2025-01-24 16:01:10 INFO Successfully done - Testcase 1.3 is passed
-2025-01-24 16:01:10 INFO Clicking on the create users button
-2025-01-24 16:01:13 INFO Successfully done - Testcase 1.4 is passed
-2025-01-24 16:01:13 INFO Entering values in the Name and id field
-2025-01-24 16:01:13 INFO Successfully done - Testcase 1.5 is passed
-2025-01-24 16:01:13 INFO Entering phone number
-2025-01-24 16:01:13 INFO Successfully done - Testcase 1.6 is passed
-2025-01-24 16:01:13 INFO Selecting the city
-2025-01-24 16:01:13 INFO Successfully done - Testcase 1.8 is passed
-2025-01-24 16:01:15 INFO Selecting the gender
-2025-01-24 16:01:16 INFO Successfully done - Testcase 1.3 is passed
-2025-01-24 16:01:16 INFO Entering address
-2025-01-24 16:01:16 INFO Successfully done - Testcase 1.13 is passed
-2025-01-24 16:01:16 INFO Entering bio
-2025-01-24 16:01:16 INFO Successfully done - Testcase 1.13 is passed
-2025-01-24 16:01:18 INFO Clicking on the submit button
-2025-01-24 16:01:28 ERROR Element not foundMessage: 
-Stacktrace:
-	GetHandleVerifier [0x00007FF7ADCF80D5+2992373]
-	(No symbol) [0x00007FF7AD98BFD0]
-	(No symbol) [0x00007FF7AD82590A]
-	(No symbol) [0x00007FF7AD87926E]
-	(No symbol) [0x00007FF7AD87955C]
-	(No symbol) [0x00007FF7AD8C27D7]
-	(No symbol) [0x00007FF7AD89F3AF]
-	(No symbol) [0x00007FF7AD8BF584]
-	(No symbol) [0x00007FF7AD89F113]
-	(No symbol) [0x00007FF7AD86A918]
-	(No symbol) [0x00007FF7AD86BA81]
-	GetHandleVerifier [0x00007FF7ADD56A2D+3379789]
-	GetHandleVerifier [0x00007FF7ADD6C32D+3468109]
-	GetHandleVerifier [0x00007FF7ADD60043+3418211]
-	GetHandleVerifier [0x00007FF7ADAEC78B+847787]
-	(No symbol) [0x00007FF7AD99757F]
-	(No symbol) [0x00007FF7AD992FC4]
-	(No symbol) [0x00007FF7AD99315D]
-	(No symbol) [0x00007FF7AD982979]
-	BaseThreadInitThunk [0x00007FFA666E259D+29]
-	RtlUserThreadStart [0x00007FFA6716AF38+40]
-
-2025-01-24 16:01:28 INFO Tearing down the WebDriver.
+2025-01-27 12:10:00 INFO Entering email.
+2025-01-27 12:10:00 INFO Entering password.
+2025-01-27 12:10:00 INFO Clicking the submit button.
+2025-01-27 12:10:08 INFO Entering values in to the field
+2025-01-27 12:10:13 INFO Successfully logged in to the admin panel - Testcase 1.1 is passed
+2025-01-27 12:10:13 INFO Clicking on the user management link 
+2025-01-27 12:10:13 INFO Successfully done - Testcase 1.2 is passed
+2025-01-27 12:10:13 INFO Clicking on the admin link
+2025-01-27 12:10:13 INFO Successfully done - Testcase 1.3 is passed
+2025-01-27 12:10:13 INFO Clicking on the create admin button
+2025-01-27 12:10:16 INFO Successfully done - Testcase 1.4 is passed
+2025-01-27 12:10:16 INFO Entering values in the Name and id field
+2025-01-27 12:10:16 INFO Successfully done - Testcase 1.5 is passed
+2025-01-27 12:10:16 INFO Entering values in the email field 
+2025-01-27 12:10:16 INFO Successfully done - Testcase 1.5 is passed
+2025-01-27 12:10:16 INFO selecting a sub_admin_role 
+2025-01-27 12:10:16 INFO Successfully done - Testcase 1.6 is passed
+2025-01-27 12:10:16 INFO Checking the password
+2025-01-27 12:10:16 INFO Successfully done - Testcase 1.7 is passed
+2025-01-27 12:10:16 INFO Clicking on the submit button
+2025-01-27 12:10:21 INFO Successfully done - Testcase 1.13 is passed
+2025-01-27 12:10:25 INFO Tearing down the WebDriver.
